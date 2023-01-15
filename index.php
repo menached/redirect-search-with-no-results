@@ -12,7 +12,7 @@ License: GPL2
 //Redirect to custom page
 function zero_results_redirect() {
 	if ( is_search() && !have_posts() ) {
-		wp_redirect('https://www.example.com/zero-results-page/');
+		wp_redirect('https://www.devopsandplatforms.com/');
 		exit;
 	}
 }
